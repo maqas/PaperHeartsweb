@@ -1,0 +1,132 @@
+/* Declare & load Inter Google Font */
+@font-face {
+  font-family: Inter;
+  src: url('../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf');
+  font-weight: 200;
+}
+
+/* Declare & load Josefin Slab Google Font */
+@font-face {
+  font-family: Josefin Slab;
+  src: url('../fonts/Josefin_Slab/JosefinSlab-VariableFont_wght.ttf');
+  font-weight: 600;
+}
+
+.navbar {
+  position: absolute;
+  width: 1440px;
+  height: 123px;
+  left: 0px;
+  top: 0px;
+}
+
+.navdiv {
+  position: absolute;
+  width: 215px;
+  height: 104px;
+  left: 31px;
+  top: 19px;
+  background: #D9D9D9;
+  border-radius: 100px/50px;
+}
+
+.paperH, .home, .whoWA, .selfcare, .events, .contact, .signup {
+  text-align: center;
+  color: #000000;
+  text-decoration-line: none;
+}
+
+.paperH {
+  position: absolute;
+  width: 169px;
+  height: 29px;
+  left: 206px;
+  top: 51px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.paperH:hover, .home:hover, .whoWA:hover, .selfcare:hover, .events:hover, .contact:hover, .signup:hover {
+  text-decoration: line-through;
+  text-decoration-line: underline;
+}
+
+.home {
+  position: absolute;
+  width: 67px;
+  height: 29px;
+  left: 450px;
+  top: 47px;  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.whoWA {
+  position: absolute;
+  width: 134px;
+  height: 29px;
+  left: 552px;
+  top: 47px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.selfcare {
+  position: absolute;
+  width: 93px;
+  height: 29px;
+  left: 715px;
+  top: 47px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.events {
+  position: absolute;
+  width: 77px;
+  height: 29px;
+  left: 843px;
+  top: 47px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.contact {
+  position: absolute;
+  width: 128px;
+  height: 29px;
+  left: 949px;
+  top: 47px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.signup {
+  position: absolute;
+  width: 187px;
+  height: 20px;
+  left: 1209px;
+  top: 51px;
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+
+}
