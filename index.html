@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale= 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home page</title>
     <link href = "./CSS/styles.css" rel = "stylesheet">
   </head>
   <body>
-    <div>
-      <nav class = "navbar">
-        <div class="navdiv"></div>
-        <a class="paperH" href="#">PAPERHEARTS</a>
-        <a class="home" href="#">Home</a>
-        <a class="whoWA" href="#">Who we are</a>
-        <a class="selfcare" href="#">Selfcare</a>
-        <a class="events" href="#">Events</a>
-        <a class="contact" href="#">Contact Us</a>
-        <a class="signup" href="#">Sign up for Therapy!</a>
-      </nav>
+    <nav class="header">
       
-    </div>
-    <div></div>
-  </body>
-
+      <div class="logo">
+        <h4>PAPERHEARTS</h4>
+      </div>
+          <ul class="nav-links">
+            <li><a  href="index.html">Home</a></li>
+            <li><a  href="#aboutcontent">Who we are</a></li>
+            
+            <li><a  href="#">Events</a></li>
+            <li><a  href="#">Contact Us</a></li>
+           
+            
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+      </nav>
+ 
+ 
+  
+  
   <div class="carousel-container">
 
     
-      <img class= "makefullscreen" src="images/darkpinkflower.jpg" alt=""  >
+      <img class= "makefullscreen" src="images/darkpinkflower.jpg" alt="">
       <div class="bottom_right">
-        <h2>
+        <h1>
           Feeling Okay?
-        </h2>
+        </h1>
           <br>
         <h1>
           There's No One <br>Face To Mental <br>Health Conditions
@@ -38,7 +47,7 @@
   </div>
 
 
-  <div class="aboutcontent">
+  <div id="aboutcontent"class="aboutcontent">
     <section class="articles">
       <div class="conatiner">
           <div class="section-heading">
@@ -119,6 +128,6 @@
   <p>To end the stigma around mental illnesses and providing a transformation of disadvantaged communities.</p>
 </div>
   </div>
-
-  
+  <script src="app.js"></script>
+</body>
 </html>
