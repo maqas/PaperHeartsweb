@@ -1,3 +1,4 @@
+/* Declare & load Inter Google Font */
 @font-face {
   font-family: Inter;
   src: url('../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf');
@@ -22,8 +23,9 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: palevioletred;
+  background-color: #24262b;
   font-family: 'Inter';
+  color: white;
 }
 
 .logo{
@@ -43,11 +45,15 @@ nav{
 }
 
 .nav-links a{
-    color: black;
+    color: white;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 20px;
+}
+
+.nav-links a:hover{
+  color: palevioletred;
 }
 
 .burger{
@@ -70,7 +76,7 @@ nav{
 
 @media screen and (max-width:768px){
   .nav-links {
-    width: 97%;
+    width: 100%;
 }
 }
 
@@ -88,7 +94,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: translateX(100%);
+    transform: translateX(0%);
     transition: transform 0.5s ease-in;
   }
 
@@ -219,18 +225,18 @@ nav{
 }
 
 .aboutcontent h2{
-  background-color: palevioletred;
-
+  background-color: #24262b;
+  color: white;
   padding: 5px;
 }
 
 @media screen and (max-width:768px) {
   .aboutcontent h2{
     
-    background-color: palevioletred;
+    background-color: #24262b;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.875rem;
-    
+    color: white;
     padding: 5px;
     width: 62%;
     
@@ -249,7 +255,7 @@ h2, h3{
   }
 }
 
-.articles .container{
+.container{
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   height: 75vh;
@@ -423,8 +429,8 @@ h2, h3{
 .objectives .objectives-title{
   text-align: center;
   font-size: 1rem;
-  background-color: palevioletred;
-  
+  background-color: #24262b;
+  color: white;
 }
 
 .objectives .objectives-description{
@@ -439,6 +445,17 @@ h2, h3{
   }
 }
 
+@media screen and (max-width:768px){
+  .objectives{
+    position: relative;
+    top: 96vh;
+  }
+  .objectives .objectives-description{
+    font-size: 1.1rem;
+    
+    padding-bottom: 10px;
+  }
+}
 
 footer{
   max-width: auto;
@@ -592,22 +609,9 @@ footer ul{
 }
 }
 
-@media screen and (max-width:768px){
-  .objectives{
-    position: relative;
-    top: 96vh;
-  }
-  .objectives .objectives-description{
-    font-size: 1.1rem;
-    
-    padding-bottom: 10px;
-  }
-}
-
-@media (max-width: 768px){
-  .footer-col{
- 
-    width: 50%;
-    margin-bottom: 30px;
+@media screen and (max-width: 768px){
+  .footer {
+    margin-top: 740px;
+    width: 100%;
 }
 }
