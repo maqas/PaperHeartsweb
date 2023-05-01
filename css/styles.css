@@ -12,6 +12,7 @@
   font-weight: 600;
 }
 
+
 *{
   margin: 0px;
   padding: 0px;
@@ -148,6 +149,7 @@ nav{
   
 }
 
+
 @media screen and (max-width:768px){
   .carousel-container {
     top:95vh;
@@ -164,6 +166,7 @@ nav{
   max-width: 100vw;
   width: 90vw;
   height: 500px;
+
   margin-top: 20px;
 }
 
@@ -205,6 +208,7 @@ nav{
     
     font-size: 10px;
   }
+
 }
 
 .aboutcontent{
@@ -214,6 +218,7 @@ nav{
   margin-right: 20PX;
 
 }
+
 @media screen and (max-width: 768px){
   .aboutcontent {
     position: relative;
@@ -241,6 +246,7 @@ nav{
     width: 62%;
     
   }
+
 }
 
 h2, h3{
@@ -256,6 +262,7 @@ h2, h3{
 }
 
 .container{
+
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   height: 75vh;
@@ -264,7 +271,9 @@ h2, h3{
 
 @media(min-width: 64em){
   .container{
+
     max-width: 66.375rem;
+
     margin-right: 0 auto;
   }
 }
@@ -290,6 +299,7 @@ h2, h3{
   }
 }
 
+
 @media screen and (max-width:768px) {
   .section-heading h2{
     position: relative;
@@ -298,11 +308,11 @@ h2, h3{
     
   }
 }
-
 .articles{
   background: floralwhite;
   padding: 6.25rem 0;
 }
+
 
 @media screen and (max-width:768px){
   .articles{
@@ -321,21 +331,24 @@ h2, h3{
     grid-template-columns: 1fr;
   }
 }
-
 .articles .articles-grid{
   display: flex;
   gap:2.875 rem;
   grid-template-columns: 1fr;
+
   
 }
 
 @media(min-width: 40em){
+
   .articles .articles-grid{
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
+
 @media(min-width: 64em){
+
   .articles .articles-grid{
     grid-template-columns: repeat(4, 1fr);
   }
@@ -362,6 +375,7 @@ h2, h3{
     
   }
 }
+
 
 .articles .article-image{
   height: 12.5rem;
@@ -420,15 +434,13 @@ h2, h3{
   margin-right: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
- 
   color: black;
-  
-  
 }
 
 .objectives .objectives-title{
   text-align: center;
   font-size: 1rem;
+
   background-color: #24262b;
   color: white;
 }
@@ -436,7 +448,7 @@ h2, h3{
 .objectives .objectives-description{
   font-size: 1.2rem;
   text-align: center;
- 
+
 }
 
 @media(min-width: 40em){
@@ -444,6 +456,7 @@ h2, h3{
     font-size: 1.125rem;
   }
 }
+
 
 @media screen and (max-width:768px){
   .objectives{
@@ -456,6 +469,7 @@ h2, h3{
     padding-bottom: 10px;
   }
 }
+
 
 footer{
   max-width: auto;
@@ -607,6 +621,7 @@ footer ul{
   .footer-col{
     width: 100%;
 }
+
 }
 
 @media screen and (max-width: 768px){
@@ -614,4 +629,5 @@ footer ul{
     margin-top: 740px;
     width: 100%;
 }
+
 }
